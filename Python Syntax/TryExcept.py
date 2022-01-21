@@ -12,7 +12,7 @@ print('First', istr)
 ### When the second conversion succeeds, it just skips the except: clause
 ### and the program continues
 
-astr = '126'
+astr = '123'
 try:
     istr = int(astr) # Succeeds and prints
 except:
